@@ -1,0 +1,49 @@
+div .father {}
+
+div.logo {
+    background-color: rgb(255, 119, 0);
+    color: white;
+    width: 18px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    position: absolute;
+}
+
+div.text {
+    position: relative;
+    left: 30px;
+    width: 200px;
+}
+
+div.small {
+    font-size: 12px;
+}
+
+div span.dots {
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+
+div.item {
+    width: 200px;
+    height: 100px;
+}
+
+div.item div.heartitem {
+    position: absolute;
+}
+
+div.item div.shareitem {
+    position: relative;
+    left: 30px;
+}
+
+div.item div.caret {
+    position: absolute;
+    left: 200px;
+}
